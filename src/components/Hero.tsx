@@ -2,6 +2,7 @@
 import Typewriter from "typewriter-effect";
 import { Button } from "./ui/button";
 import { ComicText } from "./magicui/comic-text";
+import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -30,10 +31,10 @@ const Hero = () => {
           variant={"outline"}
           className="backdrop-blur-2xl cursor-pointer  transition-all duration-300 hover:scale-105"
         >
-          View Project
+          <Link href={"#projects"}>View Project</Link>
         </Button>
         <Button className="cursor-pointer bg-gradient-to-br from-indigo-600 to-green-400 transition-all duration-300 hover:scale-105">
-          Get Started
+          <Link href={"#contact"}>Get Started</Link>
         </Button>
       </div>
     </div>

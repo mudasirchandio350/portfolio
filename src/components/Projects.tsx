@@ -82,7 +82,7 @@ const Projects = () => {
   ];
 
   return (
-    <section className="py-16 md:py-20 lg:py-24 w-full">
+    <section className="py-16 md:py-20 lg:py-24 w-full" id="projects">
       <div className="container mx-auto px-4">
         {/* Header */}
         <div className="text-center mb-12">

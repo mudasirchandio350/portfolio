@@ -15,7 +15,10 @@ import { ComicText } from "./magicui/comic-text";
 
 const Contact = () => {
   return (
-    <div className="flex flex-col justify-center items-center py-10 w-full gap-5">
+    <div
+      className="flex flex-col justify-center items-center py-10 w-full gap-5"
+      id="contact"
+    >
       <ComicText>Contact</ComicText>
       <Card className="w-[400px] lg:w-[570px] ">
         <CardHeader>
