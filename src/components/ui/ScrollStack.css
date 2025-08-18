@@ -1,0 +1,39 @@
+.scroll-stack-scroller {
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  position: relative;
+}
+
+.scroll-stack-inner {
+  position: relative;
+  padding-bottom: 100vh;
+}
+
+.scroll-stack-card {
+  position: relative;
+  z-index: 1;
+  will-change: transform, filter;
+  transform-origin: top center;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  transform: translateZ(0);
+  -webkit-transform: translateZ(0);
+  perspective: 1000px;
+  -webkit-perspective: 1000px;
+}
+
+.scroll-stack-end {
+  height: 1px;
+  width: 100%;
+  pointer-events: none;
+}
+
+/* Smooth scrolling on webkit browsers */
+.scroll-stack-scroller::-webkit-scrollbar {
+  width: 6px;
+}
+
+.scroll-stack-scroller::-webkit-scrollbar-track {
+  background: transparent;
+}
