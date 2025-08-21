@@ -16,6 +16,7 @@ const images: any = [
   "/langchain.svg",
   "/langgraph.svg",
   "/azure.png",
+  "/Sanity.svg",
 ];
 
 const Glb = () => {
