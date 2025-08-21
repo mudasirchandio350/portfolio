@@ -7,7 +7,7 @@ import Link from "next/link";
 const Hero = () => {
   return (
     <div className="min-h-screen w-full flex flex-col justify-center items-center py-10">
-      <h1 className="text-4xl lg:text-6xl  text-center font-extrabold capitalize">
+      <h1 className="text-3xl md:text-4xl lg:text-6xl  text-center font-extrabold capitalize">
         Building seamless{" "}
         <span className="bg-clip-text text-transparent dark:bg-gradient-to-r dark:from-indigo-600 dark:to-green-500 bg-gradient-to-r from-cyan-500 to-green-500">
           Digital experiences

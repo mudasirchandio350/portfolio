@@ -145,7 +145,9 @@ const Testimonials = () => {
       <div className="container mx-auto px-4 mb-12">
         {/* Header */}
         <div className="text-center mb-8">
-          <ComicText fontSize={3}>Client Testimonials</ComicText>
+          <ComicText fontSize={2} className="max-sm:text-xl text-center">
+            Client Testimonials
+          </ComicText>
           <p
             className={`text-base md:text-lg lg:text-xl text-gray-600 dark:text-gray-300 mt-6 max-w-3xl mx-auto ${lora.className}`}
           >

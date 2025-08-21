@@ -19,8 +19,8 @@ const Contact = () => {
       className="flex flex-col justify-center items-center py-10 w-full gap-5"
       id="contact"
     >
-      <ComicText>Contact</ComicText>
-      <Card className="w-[400px] lg:w-[570px] ">
+      <ComicText fontSize={2}>Contact</ComicText>
+      <Card className="w-[300px] md:w-[400px] lg:w-[570px] ">
         <CardHeader>
           <h1 className="text-3xl lg:text-5xl font-bold text-center">
             let&apos;s Work Together

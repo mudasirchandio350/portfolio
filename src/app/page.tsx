@@ -30,7 +30,9 @@ const Home = () => {
           <Contact />
         </div>
       </div>
-      <Footer />
+      <div className="relative opacity-100 w-full dark:bg-gray-800 bg-black">
+        <Footer />
+      </div>
     </>
   );
 };

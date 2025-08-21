@@ -18,7 +18,7 @@ const companies = [
 
 const CompanyCard = ({ company }: { company: (typeof companies)[0] }) => {
   return (
-    <div className="flex items-center justify-center p-4 mx-4  rounded-lg shadow-sm border border-gray-200 dark:border-gray-700 transition-all duration-300 hover:shadow-md hover:scale-105 min-w-[200px] h-24">
+    <div className="flex items-center justify-center p-4 mx-4  rounded-lg shadow-sm border border-gray-200 dark:border-gray-700 transition-all duration-300 hover:shadow-md hover:scale-105 max-sm:min-w-[80px] max-sm:h-20 md:min-w-[200px] md:h-24">
       <div className="relative w-32 h-16">
         <Image
           src={company.logo}
