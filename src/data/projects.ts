@@ -31,13 +31,13 @@ export const projects: Project[] = [
     updatedAt: new Date("2024-02-20"),
   },
    {
-    id: "1",
+    id: "2",
     title: "AI Powered Consultation Management",
     description:
       "Fullstack AI Powered Consultation Management",
     longDescription: "",
     technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Supabase"],
-    image: "/consult.jpg",
+    image: "/consult.jpeg",
     liveUrl: "https://ai-consultation-opal.vercel.app/",
     featured: true,
     category: "web",
