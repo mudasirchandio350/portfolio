@@ -30,6 +30,21 @@ export const projects: Project[] = [
     createdAt: new Date("2024-01-15"),
     updatedAt: new Date("2024-02-20"),
   },
+   {
+    id: "1",
+    title: "AI Powered Consultation Management",
+    description:
+      "Fullstack AI Powered Consultation Management",
+    longDescription: "",
+    technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Supabase"],
+    image: "/consult.jpg",
+    liveUrl: "https://ai-consultation-opal.vercel.app/",
+    featured: true,
+    category: "web",
+    status: "completed",
+    createdAt: new Date("2024-01-20"),
+    updatedAt: new Date("2024-02-20"),
+  },
 ];
 
 // Helper functions for project management
